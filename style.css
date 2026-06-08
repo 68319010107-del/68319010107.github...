@@ -1,0 +1,92 @@
+/* Element Selector */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+    background: linear-gradient(135deg, #71cfe9, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Class Selector */
+.card{
+    width: 420px;
+    background: white;
+    padding: 30px;
+    border-radius: 25px;
+    border: 3px solid #ffffff;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    text-align: center;
+    transition: 0.4s;
+}
+
+/* Hover Effect */
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+}
+
+/* รูปอยู่ตรงกลาง */
+.profile-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%; /* ทำให้เป็นวงกลม */
+    object-fit: cover;
+    border: 5px solid #072552;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: 0.4s;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+/* ID Selector */
+#name{
+    color: #071d3f;
+    margin-bottom: 5px;
+    font-size: 32px;
+}
+
+.title{
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.info{
+    background: #cffafd;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    border-left: 6px solid #0d6efd;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.info:hover{
+    background: #e9f2ff;
+    transform: scale(1.02);
+}
+
+h2{
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+
+p, li{
+    color: #333;
+    font-size: 16px;
+}
+
+ul{
+    padding-left: 20px;
+}
